@@ -326,8 +326,22 @@ hydra -L /tmp/usernames.txt       -P /tmp/passwords.txt       -t 4       -V     
 
 ## 6. Challenges and lessons learned
 
-- `<problem you hit, e.g. agent not connecting, Windows firewall or ports 1514/1515, RAM limits, WSL networking quirks reaching the VM>` and how you fixed it
-- What you would improve (active response to auto-block the attacker IP, alert forwarding, deploying TheHive on `target` for case management)
+**Challenges**
+- **Network connectivity:** getting the host, WSL, and the VMware NAT network to all reach each other was the first blocker. Attempts from WSL to the VMs (and vice versa) initially failed, which meant retracing the NAT setup and testing connectivity at each hop (`ping`, `telnet <ip> <port>`) before moving on.
+- **Wazuh configuration:** the first manager/agent setup didn't come up cleanly (service status, agent registration). Working through the logs (`/var/ossec/logs/ossec.log` on the manager, the agent log on Windows) to find the exact point of failure was what got it running reliably.
+
+**What I learned**
+- How to deploy a SIEM from scratch to monitor multiple endpoints, without relying on a SOAR platform: Wazuh's own correlation and active-response engine was enough to detect and react to an attack end to end.
+- How to write and validate custom detection rules (the SSH brute-force tier chain and the login-after-malware correlation rule), using `wazuh-logtest` to confirm each one fires as intended.
+- How to configure Active Response so the SIEM reacts automatically to a sustained attack, without a separate SOAR layer.
+- How to protect a specific file directory with File Integrity Monitoring, and read FIM events through to a dashboard alert.
+- How to manage agents across two different operating systems (Windows and Linux) from a single manager, each with its own install and config path.
+
+**What I'd improve next**
+- Forward alerts to Slack or email for real-time notification
+- Deploy TheHive on `target` for case management and incident tracking
+- Add a second Linux agent to broaden log coverage
+- Tune the active-response timeout and whitelist trusted IPs to reduce the risk of false positives in a more realistic setup
 
 ## 7. Repository structure
 
