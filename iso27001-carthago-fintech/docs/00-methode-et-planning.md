@@ -14,7 +14,7 @@ Chaque livrable répond à une exigence de la norme, s'appuie sur des faits tir�
 | 4 | Périmètre, gouvernance, objectifs | 4.3, 5.1 à 5.3, 6.2 | `docs/03-...` | 2 jours | [ ] |
 | 5 | Inventaire des actifs | 6.1.2, A.5.9 | `docs/04-...` | 2 jours | [ ] |
 | 6 | Méthode et appréciation des risques | 6.1.2, 8.2 | `docs/05-...`, onglets Méthode et Risques | 4 à 5 jours | [ ] |
-| 7 | Traitement des risques et SoA | 6.1.3, 8.3 | onglets Traitement et SoA | 4 à 5 jours | [ ] |
+| 7 | Traitement des risques et SoA | 6.1.3, 8.3 | onglets Traitement et SoA, `docs/09-...` | 4 à 5 jours | [ ] |
 | 8 | Politiques prioritaires | 5.2, 7.5, A.5.1 | `docs/06-politiques/` | 3 jours | [ ] |
 | 9 | Indicateurs et audit interne | 9.1, 9.2 | onglet Indicateurs, `docs/07-...` | 3 jours | [ ] |
 | 10 | Relecture et publication | — | dépôt Git à jour | 1 à 2 jours | [ ] |

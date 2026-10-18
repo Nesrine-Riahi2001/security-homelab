@@ -20,7 +20,7 @@ Approche par scénarios inspirée d'ISO/IEC 27005 : on décrit un scénario (cau
 ## Déroulé
 
 1. Partir de la liste des écarts et des actifs.
-2. Regrouper les écarts en scénarios de risque (11 scénarios, voir le rapport [08](08-appreciation-des-risques.md)).
+2. Regrouper les écarts en scénarios de risque (12 scénarios, voir le rapport [08](08-appreciation-des-risques.md)).
 3. Coter vraisemblance et impact **en justifiant** chaque note par un fait du cas.
 4. Lire la classe et la décision calculées.
 5. Choisir une option de traitement (réduire, accepter, transférer, éviter) et relier le risque à des contrôles.
@@ -36,4 +36,4 @@ Approche par scénarios inspirée d'ISO/IEC 27005 : on décrit un scénario (cau
 
 - [ ] Relire et ajuster les définitions d'échelle.
 - [ ] Faire valider les seuils (hypothèse de départ : seuil d'acceptation ≤ 3).
-- [x] Cotation et justification des 11 risques : voir [08-appreciation-des-risques.md](08-appreciation-des-risques.md).
+- [x] Cotation et justification des 12 risques : voir [08-appreciation-des-risques.md](08-appreciation-des-risques.md).
