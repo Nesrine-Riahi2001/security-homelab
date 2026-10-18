@@ -16,10 +16,12 @@ Carthago FinTech (120 collaborateurs, plateforme de paiement CarthagoPay sur Mic
 | Périmètre, gouvernance, objectifs (4.3, 5, 6.2) | [docs/03-perimetre-et-gouvernance.md](docs/03-perimetre-et-gouvernance.md) | Brouillon à valider |
 | Inventaire des actifs | [docs/04-inventaire-des-actifs.md](docs/04-inventaire-des-actifs.md) | Base à compléter |
 | Méthodologie de risque (6.1.2) | [docs/05-methodologie-de-risque.md](docs/05-methodologie-de-risque.md) | Proposition à valider |
-| Politiques | [docs/06-politiques/](docs/06-politiques/) | Modèle à compléter |
+| Rapport d'appréciation des risques (6.1.2, 8.2) | [docs/08-appreciation-des-risques.md](docs/08-appreciation-des-risques.md) ([PDF](docs/08-appreciation-des-risques.pdf)) | Cotation proposée |
+| Politique de contrôle d'accès et de gestion des identités | [docs/06-politiques/01-politique-controle-acces-et-identites.md](docs/06-politiques/01-politique-controle-acces-et-identites.md) ([PDF](docs/06-politiques/01-politique-controle-acces-et-identites.pdf)) | Version 1.0 proposée |
+| Autres politiques prioritaires | [docs/06-politiques/](docs/06-politiques/) | Modèle à compléter |
 | Programme d'audit interne (9.2) | [docs/07-audit-interne.md](docs/07-audit-interne.md) | Modèle à compléter |
 | Liste des écarts (45 constats) | [registres/Liste_des_ecarts.xlsx](registres/Liste_des_ecarts.xlsx) | Brouillon à valider |
-| Registres : méthode, risques, traitement, SoA, indicateurs | [registres/Registres_SMSI.xlsx](registres/Registres_SMSI.xlsx) | À compléter |
+| Registres : méthode, risques (cotés), plan de traitement (29 actions), SoA, indicateurs | [registres/Registres_SMSI.xlsx](registres/Registres_SMSI.xlsx) | Risques et traitement proposés ; SoA à compléter |
 
 ## Démarche
 
@@ -32,7 +34,7 @@ Carthago FinTech (120 collaborateurs, plateforme de paiement CarthagoPay sur Mic
 ## Hypothèses et limites
 
 - Les constats viennent uniquement de l'énoncé du cas ; aucune preuve détaillée n'est disponible, les ateliers à venir devant en fournir.
-- Les notes de criticité, les échelles de risque, les scénarios et les cibles d'indicateurs sont des propositions de travail, signalées comme telles dans les documents.
+- Les notes de criticité, les cotations de risque, les échelles, les actions de traitement et les cibles d'indicateurs sont des propositions de travail, signalées comme telles dans les documents.
 - Les liens entre écarts, clauses et contrôles sont indicatifs.
 
 ## Droits d'auteur
